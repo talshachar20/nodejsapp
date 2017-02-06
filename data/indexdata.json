@@ -1,0 +1,10 @@
+{
+  "index": {
+    "title": "Express",
+    "name": "Bob",
+    "admin": true
+  },
+  "homepage": {
+    "title": "This is Homepage"
+  }
+}

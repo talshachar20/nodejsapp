@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  if(index.admin)
+    p Admin Mode
+  p Welcome to #{index.title}
+  body
+    h1 Hello #{index.name}
+    h2 How's going #{index.name} ?
+    a(href='/homepage') Homepage

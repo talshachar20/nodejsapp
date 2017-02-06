@@ -1,0 +1,543 @@
+[2017-02-03T09:41:51,002][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T09:41:51,121][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.6gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T09:41:51,121][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T09:41:51,138][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T09:41:51,143][INFO ][o.e.n.Node               ] version[5.2.0], pid[1128], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T09:41:52,340][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T09:41:52,341][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T09:41:52,341][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T09:41:52,341][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T09:41:52,341][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T09:41:52,342][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T09:41:55,361][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T09:41:55,361][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T09:41:55,577][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T09:41:58,653][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{z1OOGvD8QNqWkOXw-FLang}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T09:41:58,678][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T09:41:58,678][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T09:41:58,848][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T09:41:59,102][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][2]] ...]).
+[2017-02-03T09:42:01,804][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T09:42:01,832][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T09:42:01,832][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T09:42:01,841][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T09:44:57,910][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T09:44:58,004][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T09:44:58,005][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T09:44:58,019][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T09:44:58,021][INFO ][o.e.n.Node               ] version[5.2.0], pid[1273], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T09:45:01,335][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T09:45:01,336][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T09:45:01,337][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T09:45:01,337][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T09:45:01,337][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T09:45:04,591][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T09:45:04,591][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T09:45:04,778][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T09:45:07,940][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{P_VgfTa4RC6Yqzc8VP_xpQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T09:45:07,961][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T09:45:07,961][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T09:45:08,150][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T09:45:08,429][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][0]] ...]).
+[2017-02-03T09:45:17,855][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/YJZWPN2-RiWyspmubUmHJA] deleting index
+[2017-02-03T09:45:17,932][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T09:45:18,022][INFO ][o.e.c.m.MetaDataMappingService] [auIaayq] [randomindex/cPTYq1DLQtWX6Ciw2-zmGA] create_mapping [document]
+[2017-02-03T10:44:03,554][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T10:44:03,582][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T10:44:03,582][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T10:44:03,590][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T10:44:34,239][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T10:44:34,324][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T10:44:34,325][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T10:44:34,339][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T10:44:34,342][INFO ][o.e.n.Node               ] version[5.2.0], pid[1395], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T10:44:35,349][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T10:44:35,351][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T10:44:35,355][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T10:44:35,359][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T10:44:35,359][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T10:44:35,360][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T10:44:35,360][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T10:44:35,361][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T10:44:35,361][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T10:44:35,361][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T10:44:35,362][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T10:44:37,975][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T10:44:37,975][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T10:44:38,316][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T10:44:41,385][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{YMjADh4aQFy3-fkMBns8jw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T10:44:41,440][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T10:44:41,440][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T10:44:41,610][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T10:44:41,849][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][4]] ...]).
+[2017-02-03T10:44:43,670][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/cPTYq1DLQtWX6Ciw2-zmGA] deleting index
+[2017-02-03T10:44:43,754][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T10:44:43,840][INFO ][o.e.c.m.MetaDataMappingService] [auIaayq] [randomindex/4urlJlGCSTucIK797K1ApQ] create_mapping [document]
+[2017-02-03T10:45:35,356][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T10:45:35,382][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T10:45:35,382][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T10:45:35,388][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T11:48:54,889][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T11:48:55,010][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T11:48:55,010][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T11:48:55,025][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T11:48:55,031][INFO ][o.e.n.Node               ] version[5.2.0], pid[1601], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T11:48:56,486][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T11:48:56,487][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T11:48:56,487][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T11:48:56,487][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T11:48:56,487][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T11:48:56,487][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T11:48:56,488][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T11:48:56,488][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T11:48:56,489][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T11:48:56,491][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T11:48:56,492][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T11:49:00,886][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T11:49:00,888][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T11:49:01,228][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T11:49:04,302][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{eG3x8R6qTqG9BhGwLVOT0Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T11:49:04,324][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T11:49:04,325][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T11:49:04,577][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T11:49:04,959][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][2]] ...]).
+[2017-02-03T11:51:27,396][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/4urlJlGCSTucIK797K1ApQ] deleting index
+[2017-02-03T11:51:27,468][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T11:51:27,553][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/EVOz9IISR4mby5SO4Nvl3Q]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T11:51:59,730][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T11:51:59,755][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T11:51:59,757][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T11:51:59,770][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T11:52:07,046][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T11:52:07,140][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T11:52:07,141][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T11:52:07,156][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T11:52:07,158][INFO ][o.e.n.Node               ] version[5.2.0], pid[1707], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T11:52:10,618][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T11:52:10,618][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T11:52:10,618][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T11:52:10,618][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T11:52:10,619][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T11:52:10,619][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T11:52:10,619][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T11:52:10,619][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T11:52:10,619][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T11:52:10,620][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T11:52:10,620][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T11:52:13,378][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T11:52:13,378][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T11:52:13,608][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T11:52:16,669][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{N0cJYiwOS3SLOm8wks3uEw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T11:52:16,694][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T11:52:16,694][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T11:52:16,797][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T11:52:17,099][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][3]] ...]).
+[2017-02-03T11:52:32,633][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/EVOz9IISR4mby5SO4Nvl3Q] deleting index
+[2017-02-03T11:52:32,735][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T11:52:32,839][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/nl541WVdTkWKyVd9A0U5Vw]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T11:52:43,284][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T11:52:43,312][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T11:52:43,312][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T11:52:43,319][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T13:44:10,856][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T13:44:10,968][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.5gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T13:44:10,968][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T13:44:10,983][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T13:44:10,989][INFO ][o.e.n.Node               ] version[5.2.0], pid[2085], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T13:44:12,283][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T13:44:12,284][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T13:44:12,285][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T13:44:12,285][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T13:44:12,285][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T13:44:12,286][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T13:44:16,188][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T13:44:16,190][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T13:44:16,609][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T13:44:19,735][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{CSicLDa7RyuOutNJCG5XXA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T13:44:19,822][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T13:44:19,823][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T13:44:20,001][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T13:44:20,377][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][3]] ...]).
+[2017-02-03T13:44:35,027][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/nl541WVdTkWKyVd9A0U5Vw] deleting index
+[2017-02-03T13:44:35,117][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:44:35,231][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/UHpAmG2jQGWR2cHQBIWq0Q]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:44:57,441][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/UHpAmG2jQGWR2cHQBIWq0Q] deleting index
+[2017-02-03T13:44:57,488][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:44:57,586][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/YVB-48dBTSij6YqvNUaMig]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:46:25,190][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/YVB-48dBTSij6YqvNUaMig] deleting index
+[2017-02-03T13:46:25,218][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:46:25,282][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/LN5VWkpqQBGncxs2xdrhuQ]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:50:03,033][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/LN5VWkpqQBGncxs2xdrhuQ] deleting index
+[2017-02-03T13:50:03,063][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:50:03,135][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/FvMoal74SEO2Rcx6JS1mrg]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:52:08,037][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/FvMoal74SEO2Rcx6JS1mrg] deleting index
+[2017-02-03T13:52:08,067][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:52:08,130][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/QFOgLMbYRECnDAAat6fXmg]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:52:36,966][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/QFOgLMbYRECnDAAat6fXmg] deleting index
+[2017-02-03T13:52:37,000][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:52:37,070][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/5fAHX_sOTi6HnzY3nD9Lag]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:56:51,722][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/5fAHX_sOTi6HnzY3nD9Lag] deleting index
+[2017-02-03T13:56:51,750][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:56:51,814][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/1XuTau02TR2A34PUJvuz8A]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:57:36,112][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/1XuTau02TR2A34PUJvuz8A] deleting index
+[2017-02-03T13:57:36,151][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:57:36,215][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/mslVMdJ9TQifFGP2khIDHw]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:59:21,147][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/mslVMdJ9TQifFGP2khIDHw] deleting index
+[2017-02-03T13:59:21,175][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:59:21,236][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/R3lHtgRsR5mIDFVe_Lf2cQ]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T13:59:51,656][INFO ][o.e.c.m.MetaDataDeleteIndexService] [auIaayq] [randomindex/R3lHtgRsR5mIDFVe_Lf2cQ] deleting index
+[2017-02-03T13:59:51,693][INFO ][o.e.c.m.MetaDataCreateIndexService] [auIaayq] [randomindex] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-02-03T13:59:51,746][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [auIaayq] failed to put mappings on indices [[[randomindex/JsPH3IaxTuaMKhhUKlu2Jw]]], type [document]
+org.elasticsearch.index.mapper.MapperParsingException: Mapping definition for [suggest] has unsupported parameters:  [payloads : false]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:151) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.checkNoRemainingFields(DocumentMapperParser.java:145) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:289) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.0.jar:5.2.0]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.0.jar:5.2.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+[2017-02-03T14:07:04,162][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T14:07:04,184][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T14:07:04,185][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T14:07:04,200][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T14:54:43,697][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T14:54:43,821][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T14:54:43,821][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T14:54:43,837][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T14:54:43,843][INFO ][o.e.n.Node               ] version[5.2.0], pid[2367], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T14:54:45,169][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T14:54:45,169][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T14:54:45,170][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T14:54:45,171][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T14:54:45,171][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T14:54:45,171][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T14:54:48,107][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T14:54:48,107][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T14:54:48,377][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T14:54:49,116][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T14:54:49,137][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T14:54:49,138][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T14:54:49,141][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T14:54:49,141][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T14:54:49,155][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T14:54:53,653][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T14:54:53,741][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T14:54:53,742][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T14:54:53,756][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T14:54:53,758][INFO ][o.e.n.Node               ] version[5.2.0], pid[2384], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T14:54:54,760][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T14:54:54,761][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T14:54:54,761][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T14:54:54,761][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T14:54:54,762][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T14:54:54,762][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T14:54:54,762][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T14:54:54,762][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T14:54:54,763][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T14:54:54,763][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T14:54:54,764][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T14:54:57,239][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T14:54:57,240][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T14:54:57,505][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T14:55:00,582][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{gtmSI66pS0yETh1N3HpMjA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T14:55:00,605][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T14:55:00,606][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T14:55:00,742][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T14:55:01,140][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][4]] ...]).
+[2017-02-03T14:56:55,559][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T14:56:55,584][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T14:56:55,585][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T14:56:55,592][INFO ][o.e.n.Node               ] [auIaayq] closed
+[2017-02-03T14:57:54,447][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-02-03T14:57:54,534][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [97.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2017-02-03T14:57:54,535][INFO ][o.e.e.NodeEnvironment    ] [auIaayq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-02-03T14:57:54,548][INFO ][o.e.n.Node               ] node name [auIaayq] derived from node ID [auIaayqLTaGKL8V_nq5Ubw]; set [node.name] to override
+[2017-02-03T14:57:54,550][INFO ][o.e.n.Node               ] version[5.2.0], pid[2409], build[24e05b9/2017-01-24T19:52:35.800Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-02-03T14:57:55,562][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [aggs-matrix-stats]
+[2017-02-03T14:57:55,562][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [ingest-common]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-expression]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-groovy]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-mustache]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [lang-painless]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [percolator]
+[2017-02-03T14:57:55,563][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [reindex]
+[2017-02-03T14:57:55,564][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty3]
+[2017-02-03T14:57:55,564][INFO ][o.e.p.PluginsService     ] [auIaayq] loaded module [transport-netty4]
+[2017-02-03T14:57:55,565][INFO ][o.e.p.PluginsService     ] [auIaayq] no plugins loaded
+[2017-02-03T14:57:57,898][INFO ][o.e.n.Node               ] initialized
+[2017-02-03T14:57:57,898][INFO ][o.e.n.Node               ] [auIaayq] starting ...
+[2017-02-03T14:57:58,135][INFO ][o.e.t.TransportService   ] [auIaayq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-02-03T14:58:01,200][INFO ][o.e.c.s.ClusterService   ] [auIaayq] new_master {auIaayq}{auIaayqLTaGKL8V_nq5Ubw}{DZ7WE0TTQfe35_g6Ld1tbg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-02-03T14:58:01,239][INFO ][o.e.h.HttpServer         ] [auIaayq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-02-03T14:58:01,239][INFO ][o.e.n.Node               ] [auIaayq] started
+[2017-02-03T14:58:01,467][INFO ][o.e.g.GatewayService     ] [auIaayq] recovered [1] indices into cluster_state
+[2017-02-03T14:58:01,765][INFO ][o.e.c.r.a.AllocationService] [auIaayq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[randomindex][2]] ...]).
+[2017-02-03T15:14:57,332][INFO ][o.e.n.Node               ] [auIaayq] stopping ...
+[2017-02-03T15:14:57,364][INFO ][o.e.n.Node               ] [auIaayq] stopped
+[2017-02-03T15:14:57,364][INFO ][o.e.n.Node               ] [auIaayq] closing ...
+[2017-02-03T15:14:57,372][INFO ][o.e.n.Node               ] [auIaayq] closed
